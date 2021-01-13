@@ -32,6 +32,7 @@
 | [538 把二叉搜索树转换为累加树](src/538/Solution.kt) | 简单 | [题目](https://leetcode-cn.com/problems/convert-bst-to-greater-tree/)
 | [652 寻找重复的子树](src/652/Solution.kt) | 中等 | [题目](https://leetcode-cn.com/problems/find-duplicate-subtrees/)
 | [654 最大二叉树](src/654/Solution.kt)  | 中等 | [题目](https://leetcode-cn.com/problems/maximum-binary-tree/)
+| [700 二叉搜索树中的搜索](src/700/Solution.kt)  | 简单 | [题目](https://leetcode-cn.com/problems/search-in-a-binary-search-tree/)
 
 ### 动态规划
 
