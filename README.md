@@ -19,6 +19,7 @@
 * [144 二叉树的前序遍历](src/144/Solution.kt) 中等 [题目](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)
 * [145 二叉树的后序遍历](src/145/Solution.kt) 中等 [题目](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/)
 * [226 翻转二叉树](src/226/Solution.kt) 简单 [题目](https://leetcode-cn.com/problems/invert-binary-tree/)
+* [654 最大二叉树](src/654/Solution.kt) 中等 [题目](https://leetcode-cn.com/problems/maximum-binary-tree/)
 
 ### 动态规划
 
