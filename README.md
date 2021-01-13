@@ -20,6 +20,7 @@
 | [100 相同的树](src/100/Solution.kt)  | 简单 | [题目](https://leetcode-cn.com/problems/same-tree/)
 | [102 二叉树的层序遍历](src/102/Solution.kt)  | 中等 | [题目](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)
 | [105 从前序与中序遍历序列构造二叉树](src/105/Solution.kt)  | 中等 | [题目](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
+| [106 从中序与后序遍历序列构造二叉树](src/106/Solution.kt)  | 中等 | [题目](https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)
 | [107 二叉树的层序遍历II](src/107/Solution.kt)  | 简单 | [题目](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/)
 | [110 平衡二叉树](src/110/Solution.kt) | 简单 | [题目](https://leetcode-cn.com/problems/balanced-binary-tree/)
 | [114 二叉树展开为链表](src/114/Solution.kt)  | 中等 | [题目](https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/)
@@ -27,6 +28,7 @@
 | [144 二叉树的前序遍历](src/144/Solution.kt)  | 中等 | [题目](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)
 | [145 二叉树的后序遍历](src/145/Solution.kt)  | 中等 | [题目](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/)
 | [226 翻转二叉树](src/226/Solution.kt) | 简单 | [题目](https://leetcode-cn.com/problems/invert-binary-tree/)
+| [652 寻找重复的子树](src/652/Solution.kt) | 中等 | [题目](https://leetcode-cn.com/problems/find-duplicate-subtrees/)
 | [654 最大二叉树](src/654/Solution.kt)  | 中等 | [题目](https://leetcode-cn.com/problems/maximum-binary-tree/)
 
 ### 动态规划
