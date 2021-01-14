@@ -23,6 +23,7 @@
 | [106 从中序与后序遍历序列构造二叉树](src/106/Solution.kt)  | 中等 | [题目](https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)
 | [107 二叉树的层序遍历II](src/107/Solution.kt)  | 简单 | [题目](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/)
 | [110 平衡二叉树](src/110/Solution.kt) | 简单 | [题目](https://leetcode-cn.com/problems/balanced-binary-tree/)
+| [112 路径总和](src/112/Solution.kt) | 简单 | [题目](https://leetcode-cn.com/problems/path-sum/)
 | [114 二叉树展开为链表](src/114/Solution.kt)  | 中等 | [题目](https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/)
 | [116 填充每个节点的下一个右侧节点指针](src/116/Solution.kt)  | 中等 | [题目](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/)
 | [144 二叉树的前序遍历](src/144/Solution.kt)  | 中等 | [题目](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)
