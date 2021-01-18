@@ -5,6 +5,11 @@
 | [1 两数之和](src/1/Solution.kt)  | 简单 | [题目](https://leetcode-cn.com/problems/two-sum/)
 | [3 无重复字符的最长子串](src/3/Solution.kt)  | 中等 | [题目](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)
 
+### 单链表
+
+|  题目   | 难度  | 来源 |
+|  ----  | ----  | ----  |
+| [2 两数相加](src/2/Solution.kt)  | 中等 | [题目](https://leetcode-cn.com/problems/add-two-numbers/)
 
 ### 栈
 
@@ -17,6 +22,7 @@
 |  题目   | 难度  | 来源 |
 |  ----  | ----  | ----  |
 | [94 二叉树的中序遍历](src/94/Solution.kt)  | 中等 | [题目](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)
+| [98 验证二叉搜索树](src/98/Solution.kt)  | 中等 | [题目](https://leetcode-cn.com/problems/validate-binary-search-tree/)
 | [100 相同的树](src/100/Solution.kt)  | 简单 | [题目](https://leetcode-cn.com/problems/same-tree/)
 | [102 二叉树的层序遍历](src/102/Solution.kt)  | 中等 | [题目](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)
 | [105 从前序与中序遍历序列构造二叉树](src/105/Solution.kt)  | 中等 | [题目](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
