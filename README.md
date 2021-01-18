@@ -41,6 +41,13 @@
 | [654 最大二叉树](src/654/Solution.kt)  | 中等 | [题目](https://leetcode-cn.com/problems/maximum-binary-tree/)
 | [700 二叉搜索树中的搜索](src/700/Solution.kt)  | 简单 | [题目](https://leetcode-cn.com/problems/search-in-a-binary-search-tree/)
 
+### 回溯算法
+
+|  题目   | 难度  | 来源 |
+|  ----  | ----  | ----  |
+| [46 全排列](src/46/Solution.kt) | 中等 | [题目](https://leetcode-cn.com/problems/permutations/)
+
+
 ### 动态规划
 
 |  题目   | 难度  | 来源 |
