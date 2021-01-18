@@ -47,4 +47,5 @@
 |  ----  | ----  | ----  |
 | [10 正则表达式匹配](src/10/Solution.kt) | 困难 | [题目](https://leetcode-cn.com/problems/regular-expression-matching/)
 | [198 打家劫舍](src/198/Solution.kt)  | 简单 | [题目](https://leetcode-cn.com/problems/house-robber/)
+| [332 零钱兑换](src/332/Solution.kt)  | 中等 | [题目](https://leetcode-cn.com/problems/coin-change/submissions/)
 | [1143 最长公共子序列](src/1143/Solution.kt)  | 中等 | [题目](https://leetcode-cn.com/problems/longest-common-subsequence/)
