@@ -46,7 +46,7 @@
 |  题目   | 难度  | 来源 |
 |  ----  | ----  | ----  |
 | [46 全排列](src/46/Solution.kt) | 中等 | [题目](https://leetcode-cn.com/problems/permutations/)
-| [46 全排列II](src/47/Solution.kt) | 中等 | [题目](https://leetcode-cn.com/problems/permutations-ii/)
+| [47 全排列II](src/47/Solution.kt) | 中等 | [题目](https://leetcode-cn.com/problems/permutations-ii/)
 
 
 ### 动态规划
