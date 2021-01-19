@@ -25,6 +25,7 @@
 | [98 验证二叉搜索树](src/98/Solution.kt)  | 中等 | [题目](https://leetcode-cn.com/problems/validate-binary-search-tree/)
 | [100 相同的树](src/100/Solution.kt)  | 简单 | [题目](https://leetcode-cn.com/problems/same-tree/)
 | [102 二叉树的层序遍历](src/102/Solution.kt)  | 中等 | [题目](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)
+| [104 二叉树的最大深度](src/104/Solution.kt)  | 简单 | [题目](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/submissions/)
 | [105 从前序与中序遍历序列构造二叉树](src/105/Solution.kt)  | 中等 | [题目](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
 | [106 从中序与后序遍历序列构造二叉树](src/106/Solution.kt)  | 中等 | [题目](https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)
 | [107 二叉树的层序遍历II](src/107/Solution.kt)  | 简单 | [题目](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/)
