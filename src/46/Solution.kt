@@ -55,7 +55,7 @@ class Solution {
             }
             list.add(nums[i])
             markNums[i] = true
-            recursion1(nums, list, resultList)
+            recursion2(nums, markNums, list, resultList)
             markNums[i] = false
             list.removeLast()
         }
