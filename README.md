@@ -37,6 +37,7 @@
 | [145 二叉树的后序遍历](src/145/Solution.kt)  | 中等 | [题目](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/)
 | [226 翻转二叉树](src/226/Solution.kt) | 简单 | [题目](https://leetcode-cn.com/problems/invert-binary-tree/)
 | [230 二叉搜索树中第K小的元素](src/230/Solution.kt) | 简单 | [题目](https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst/)
+| [257 二叉树的所有路径](src/257/Solution.kt) | 简单 | [题目](https://leetcode-cn.com/problems/binary-tree-paths/)
 | [538 把二叉搜索树转换为累加树](src/538/Solution.kt) | 简单 | [题目](https://leetcode-cn.com/problems/convert-bst-to-greater-tree/)
 | [652 寻找重复的子树](src/652/Solution.kt) | 中等 | [题目](https://leetcode-cn.com/problems/find-duplicate-subtrees/)
 | [654 最大二叉树](src/654/Solution.kt)  | 中等 | [题目](https://leetcode-cn.com/problems/maximum-binary-tree/)
@@ -47,6 +48,7 @@
 
 |  题目   | 难度  | 来源 |
 |  ----  | ----  | ----  |
+| [429 N叉树的层次遍历](src/429/Solution.kt)  | 中等 | [题目](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/)
 | [589 N叉树的前序遍历](src/589/Solution.kt)  | 简单 | [题目](https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/)
 
 
