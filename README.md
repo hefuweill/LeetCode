@@ -43,6 +43,13 @@
 | [700 二叉搜索树中的搜索](src/700/Solution.kt)  | 简单 | [题目](https://leetcode-cn.com/problems/search-in-a-binary-search-tree/)
 | [四则运算](src/extra/四则运算.kt)
 
+### N叉树
+
+|  题目   | 难度  | 来源 |
+|  ----  | ----  | ----  |
+| [589 N叉树的前序遍历](src/589/Solution.kt)  | 简单 | [题目](https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/)
+
+
 ### 回溯算法
 
 |  题目   | 难度  | 来源 |

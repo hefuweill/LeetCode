@@ -2,6 +2,7 @@ package extra
 
 import java.lang.RuntimeException
 import java.util.*
+import kotlin.test.assertEquals
 
 class TreeNode(var value: Any) {
     var left: TreeNode? = null
@@ -9,13 +10,14 @@ class TreeNode(var value: Any) {
 }
 
 fun main() {
-    println(calculate("1 + 2 - ( 6 / 2 )"))
-    println(calculate("99 - 9 + 10 * 2 - 3"))
-    println(calculate("2 / 3"))
-    println(calculate("1 - 9"))
-    println(calculate("-1 / 2"))
+    assertEquals(calculate("1 + 2 - ( 6 / 2 )"), 0)
+    assertEquals(calculate("99 - 9 + 10 * 2 - 3"), 107)
+    assertEquals(calculate("2 / 3"), 0)
+    assertEquals(calculate("1 - 9"), -8)
+    assertEquals(calculate("-1 / 2"), 0)
 
-    println(calculate("3 * ( 2 + 4 * ( 1 - 2 ) / 2 ) + 1"))
+    assertEquals(calculate("3 * ( 2 + 4 * ( 1 - 2 ) / 2 ) + 1"), 1)
+    assertEquals(calculate("4 / 2 + 1 + 2 * ( 3 - 2 * ( 1 + 3 ) )"), -7)
 }
 
 fun calculate(expression: String): Int {
