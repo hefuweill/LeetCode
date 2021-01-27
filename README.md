@@ -10,6 +10,7 @@
 |  题目   | 难度  | 来源 |
 |  ----  | ----  | ----  |
 | [2 两数相加](src/2/Solution.kt)  | 中等 | [题目](https://leetcode-cn.com/problems/add-two-numbers/)
+| [21 合并两个有序链表](src/21/Solution.kt)  | 简单 | [题目](https://leetcode-cn.com/problems/merge-two-sorted-lists/)
 
 ### 栈
 
