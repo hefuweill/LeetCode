@@ -18,16 +18,16 @@ fun main() {
     assertEquals(calculate("3 * ( 2 + 4 * ( 1 - 2 ) / 2 ) + 1"), 1)
     assertEquals(calculate("4 / 2 + 1 + 2 * ( 3 - 2 * ( 1 + 3 ) )"), -7)
     assertEquals(calculate("9 + ( ( 10 - 2 ) * 3 + 3 * 3 ) * 4 + 10 / 2"), 146)
-    assertEquals(calculate("3 * 2 + 3 * ( 4 + 2  + 3 * 2 + 6 / 3 + 2 * ( 4 - 4 / 2 * ( 3 - 1 ) ) ) / 3"), 20)
+    assertEquals(calculate("3 * 2 + 3 * ( 4 + 2 + 3 * 2 + 6 / 3 + 2 * ( 4 - 4 / 2 * ( 3 - 1 ) ) ) / 3"), 20)
 }
 
 fun calculate(expression: String): Int {
     val characters = expression.split(" ")
     val treeNode = createBinaryTree(characters, 0, characters.lastIndex)
     val sequence = postOrder(treeNode, mutableListOf())
-    val stack = Stack<Int>()
+    val stack = Stack<Double>()
     for (any in sequence) {
-        if (any is Int) {
+        if (any is Double) {
             stack.push(any)
         } else {
             val op2 = stack.pop()
@@ -43,7 +43,7 @@ fun calculate(expression: String): Int {
             })
         }
     }
-    return stack.pop()
+    return stack.pop().toInt()
 }
 
 private fun createBinaryTree(characters: List<String>, start: Int, end: Int): TreeNode? {
@@ -66,7 +66,7 @@ private fun createBinaryTree(characters: List<String>, start: Int, end: Int): Tr
                 throw IllegalArgumentException()
             }
             val node = TreeNode(character.toCharArray()[0])
-            if (rootNode.value is Int || character == "+" || character == "-") {
+            if (rootNode.value is Double || character == "+" || character == "-") {
                 node.left = rootNode
                 rootNode = node
             } else {
@@ -83,7 +83,7 @@ private fun createBinaryTree(characters: List<String>, start: Int, end: Int): Tr
                             previewNode.right = node
                         }
                         break
-                    } else if (currentNode.value is Int) {
+                    } else if (currentNode.value is Double) {
                         node.left = previewNode!!.right
                         previewNode.right = node
                         break
@@ -94,9 +94,9 @@ private fun createBinaryTree(characters: List<String>, start: Int, end: Int): Tr
             }
         } else if (isNumber(character)) {
             if (rootNode == null) {
-                rootNode = TreeNode(character.toInt())
+                rootNode = TreeNode(character.toDouble())
             } else {
-                findRightestNode(rootNode).right = TreeNode(character.toInt())
+                findRightestNode(rootNode).right = TreeNode(character.toDouble())
             }
         } else {
             // 遇到非法的右括号了，报错
@@ -124,7 +124,7 @@ private fun isOperator(character: String): Boolean {
 }
 
 private fun isNumber(character: String): Boolean {
-    return character.toIntOrNull() != null
+    return character.toDoubleOrNull() != null
 }
 
 private fun findRightestNode(rootNode: TreeNode?): TreeNode {
