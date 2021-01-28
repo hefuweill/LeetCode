@@ -66,6 +66,7 @@
 |  ----  | ----  | ----  |
 | [46 全排列](src/46/Solution.kt) | 中等 | [题目](https://leetcode-cn.com/problems/permutations/)
 | [47 全排列II](src/47/Solution.kt) | 中等 | [题目](https://leetcode-cn.com/problems/permutations-ii/)
+| [56 N皇后](src/51/Solution.kt) | 中等 | [题目](https://leetcode-cn.com/problems/n-queens/)
 | [679 24点游戏](src/679/Solution.kt) | 困难 | [题目](https://leetcode-cn.com/problems/24-game/)
 
 
