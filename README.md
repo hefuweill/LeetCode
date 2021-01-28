@@ -5,6 +5,12 @@
 | [1 两数之和](src/1/Solution.kt)  | 简单 | [题目](https://leetcode-cn.com/problems/two-sum/)
 | [3 无重复字符的最长子串](src/3/Solution.kt)  | 中等 | [题目](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)
 
+### 数组
+
+|  题目   | 难度  | 来源 |
+|  ----  | ----  | ----  |
+| [26 删除排序数组中的重复项](src/26/Solution.kt)  | 简单 | [题目](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)
+
 ### 单链表
 
 |  题目   | 难度  | 来源 |

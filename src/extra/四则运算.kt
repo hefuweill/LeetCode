@@ -1,12 +1,12 @@
 package extra
 
-import java.lang.RuntimeException
 import java.util.*
 import kotlin.test.assertEquals
 
 class TreeNode(var value: Any) {
     var left: TreeNode? = null
     var right: TreeNode? = null
+    var flag: Boolean = false
 }
 
 fun main() {
@@ -18,6 +18,7 @@ fun main() {
 
     assertEquals(calculate("3 * ( 2 + 4 * ( 1 - 2 ) / 2 ) + 1"), 1)
     assertEquals(calculate("4 / 2 + 1 + 2 * ( 3 - 2 * ( 1 + 3 ) )"), -7)
+    assertEquals(calculate("9 + ( ( 10 - 2 ) * 3 + 3 * 3 ) * 4 + 10 / 2"), 146)
 }
 
 fun calculate(expression: String): Int {
@@ -72,7 +73,7 @@ private fun createBinaryTree(characters: List<String>, start: Int, end: Int): Tr
                 var currentNode = rootNode
                 var previewNode: TreeNode? = null
                 while (currentNode != null) {
-                    if (currentNode.value == '*' || currentNode.value == '/') {
+                    if (currentNode.flag || currentNode.value == '*' || currentNode.value == '/') {
                         // 前面是乘除，那我肯定在其后面计算，我需要插入
                         if (previewNode == null) {
                             node.left = rootNode
@@ -103,7 +104,9 @@ private fun createBinaryTree(characters: List<String>, start: Int, end: Int): Tr
         }
         currentIndex++
     }
-    return rootNode
+    return rootNode.apply {
+        this?.flag = true
+    }
 }
 
 private fun postOrder(node: TreeNode?, list: MutableList<Any>): List<Any> {
