@@ -6,7 +6,7 @@ import kotlin.test.assertEquals
 class TreeNode(var value: Any) {
     var left: TreeNode? = null
     var right: TreeNode? = null
-    var flag: Boolean = false
+    var isEntirety: Boolean = false
 }
 
 fun main() {
@@ -18,8 +18,8 @@ fun main() {
 
     assertEquals(calculate("3 * ( 2 + 4 * ( 1 - 2 ) / 2 ) + 1"), 1)
     assertEquals(calculate("4 / 2 + 1 + 2 * ( 3 - 2 * ( 1 + 3 ) )"), -7)
-    assertEquals(calculate("9 + ( ( 10 - 2 ) * 3 + 3 * 3 ) * 4 + 10 / 2"), 146)
-    assertEquals(calculate("3 * 2 + 3 * ( 4 + 2 + 3 * 2 + 6 / 3 + 2 * ( 4 - 4 / 2 * ( 3 - 1 ) ) ) / 3"), 20)
+    assertEquals(calculate("9 + ( ( 10 - 2 ) *3 + 3 * 3 ) * 4 + 10 / 2"), 146)
+    assertEquals(calculate("3 * 2 + 3 * ( 4 + 2  + 3 * 2 + 6 / 3 + 2 * ( 4 - 4 / 2 * ( 3 - 1 ) ) ) / 3"), 20)
 }
 
 fun calculate(expression: String): Int {
@@ -74,7 +74,7 @@ private fun createBinaryTree(characters: List<String>, start: Int, end: Int): Tr
                 var currentNode = rootNode
                 var previewNode: TreeNode? = null
                 while (currentNode != null) {
-                    if (currentNode.flag || currentNode.value == '*' || currentNode.value == '/') {
+                    if (currentNode.isEntirety || currentNode.value == '*' || currentNode.value == '/') {
                         // 前面是乘除，那我肯定在其后面计算，我需要插入
                         if (previewNode == null) {
                             node.left = rootNode
@@ -106,7 +106,7 @@ private fun createBinaryTree(characters: List<String>, start: Int, end: Int): Tr
         currentIndex++
     }
     return rootNode.apply {
-        this?.flag = true
+        this?.isEntirety = true
     }
 }
 
