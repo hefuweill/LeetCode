@@ -15,10 +15,9 @@ fun main() {
     assertEquals(calculate("2 / 3"), 0)
     assertEquals(calculate("1 - 9"), -8)
     assertEquals(calculate("-1 / 2"), 0)
-
     assertEquals(calculate("3 * ( 2 + 4 * ( 1 - 2 ) / 2 ) + 1"), 1)
     assertEquals(calculate("4 / 2 + 1 + 2 * ( 3 - 2 * ( 1 + 3 ) )"), -7)
-    assertEquals(calculate("9 + ( ( 10 - 2 ) *3 + 3 * 3 ) * 4 + 10 / 2"), 146)
+    assertEquals(calculate("9 + ( ( 10 - 2 ) * 3 + 3 * 3 ) * 4 + 10 / 2"), 146)
     assertEquals(calculate("3 * 2 + 3 * ( 4 + 2  + 3 * 2 + 6 / 3 + 2 * ( 4 - 4 / 2 * ( 3 - 1 ) ) ) / 3"), 20)
 }
 
