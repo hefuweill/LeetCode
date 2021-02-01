@@ -86,5 +86,5 @@ class Solution {
 }
 
 fun main() {
-    println(Solution().solveNQueens(4))
+    println(Solution().solveNQueens(14))
 }
