@@ -80,3 +80,9 @@
 | [332 零钱兑换](src/332/Solution.kt)  | 中等 | [题目](https://leetcode-cn.com/problems/coin-change/submissions/)
 | [1143 最长公共子序列](src/1143/Solution.kt)  | 中等 | [题目](https://leetcode-cn.com/problems/longest-common-subsequence/)
 
+### 设计
+
+|  题目   | 难度  | 来源 |
+|  ----  | ----  | ----  |
+| [146 LRU 缓存机制](src/146/Solution.kt)  | 中等 | [题目](https://leetcode-cn.com/problems/lru-cache/)
+
