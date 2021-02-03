@@ -1,6 +1,6 @@
 package `652`
 
-import bean.TreeNode
+import utils.bean.TreeNode
 
 /**
  * 后续遍历框架，牢记如果递归计算二叉树节点数量

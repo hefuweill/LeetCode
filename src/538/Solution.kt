@@ -1,6 +1,6 @@
 package `538`
 
-import bean.TreeNode
+import utils.bean.TreeNode
 
 /**
  * 二叉搜索树，中序遍历为从小到大有序，而本题需要将每个节点

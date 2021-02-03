@@ -1,6 +1,6 @@
 package `100`
 
-import bean.TreeNode
+import utils.bean.TreeNode
 
 /**
  * 遍历一次如果都相同那么就是相同树，使用递归 DFS

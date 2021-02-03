@@ -1,6 +1,6 @@
 package `654`
 
-import bean.TreeNode
+import utils.bean.TreeNode
 
 /**
  * 类似快排思想

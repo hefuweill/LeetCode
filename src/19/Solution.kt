@@ -1,6 +1,6 @@
 package `19`
 
-import bean.ListNode
+import utils.bean.ListNode
 
 class Solution {
     fun removeNthFromEnd(head: ListNode?, n: Int): ListNode? {

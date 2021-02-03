@@ -1,6 +1,6 @@
 package `21`
 
-import bean.ListNode
+import utils.bean.ListNode
 
 class Solution {
     fun mergeTwoLists(l1: ListNode?, l2: ListNode?): ListNode? {

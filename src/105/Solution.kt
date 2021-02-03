@@ -1,6 +1,6 @@
 package `105`
 
-import bean.TreeNode
+import utils.bean.TreeNode
 
 /**
  * 前序遍历 preorder = 1 [2 5 4 6 7] [3 8 9]

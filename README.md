@@ -68,6 +68,8 @@
 | [46 全排列](src/46/Solution.kt) | 中等 | [题目](https://leetcode-cn.com/problems/permutations/)
 | [47 全排列II](src/47/Solution.kt) | 中等 | [题目](https://leetcode-cn.com/problems/permutations-ii/)
 | [51 N皇后](src/51/Solution.kt) | 困难 | [题目](https://leetcode-cn.com/problems/n-queens/)
+| [77 组合](src/77/Solution.kt) | 中等 | [题目](https://leetcode-cn.com/problems/combinations/)
+| [78 子集](src/78/Solution.kt) | 中等 | [题目](https://leetcode-cn.com/problems/subsets/)
 | [679 24点游戏](src/679/Solution.kt) | 困难 | [题目](https://leetcode-cn.com/problems/24-game/)
 
 

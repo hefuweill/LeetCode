@@ -1,6 +1,6 @@
 package `230`
 
-import bean.TreeNode
+import utils.bean.TreeNode
 
 /**
  * 二叉搜索树定义了对于二叉树的每个结点其左子树所有元素小于它右子树所有元素大于它

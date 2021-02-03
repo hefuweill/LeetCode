@@ -1,6 +1,6 @@
 package `106`
 
-import bean.TreeNode
+import utils.bean.TreeNode
 
 /**
  * 观察下中序遍历和后续遍历，由于后续遍历最后一个节点是根节点，

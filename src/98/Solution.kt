@@ -1,6 +1,6 @@
 package `98`
 
-import bean.TreeNode
+import utils.bean.TreeNode
 
 /**
  * 直接中序遍历判断是否递增就能解决

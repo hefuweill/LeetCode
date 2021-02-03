@@ -1,4 +1,4 @@
-package bean
+package utils.bean
 
 class TreeNode(var `val`: Int) {
     var left: TreeNode? = null

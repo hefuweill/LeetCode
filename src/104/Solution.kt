@@ -1,6 +1,6 @@
 package `104`
 
-import bean.TreeNode
+import utils.bean.TreeNode
 import kotlin.math.max
 
 /**

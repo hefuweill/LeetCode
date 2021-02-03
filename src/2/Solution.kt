@@ -1,6 +1,6 @@
 package `2`
 
-import bean.ListNode
+import utils.bean.ListNode
 
 class Solution {
 

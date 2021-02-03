@@ -1,6 +1,6 @@
 package `337`
 
-import bean.TreeNode
+import utils.bean.TreeNode
 import java.lang.Integer.max
 
 /**

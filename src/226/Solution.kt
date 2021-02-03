@@ -1,6 +1,6 @@
 package `226`
 
-import bean.TreeNode
+import utils.bean.TreeNode
 
 /**
  * 左右翻转二叉树，总结规律就是每个节点的左右节点互换

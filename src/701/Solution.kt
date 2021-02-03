@@ -1,6 +1,6 @@
 package `701`
 
-import bean.TreeNode
+import utils.bean.TreeNode
 
 class Solution {
 

@@ -1,6 +1,6 @@
 package `257`
 
-import bean.TreeNode
+import utils.bean.TreeNode
 
 class Solution {
     fun binaryTreePaths(root: TreeNode?): List<String> {

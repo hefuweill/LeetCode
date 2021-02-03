@@ -1,6 +1,6 @@
 package `145`
 
-import bean.TreeNode
+import utils.bean.TreeNode
 import java.util.*
 
 /**

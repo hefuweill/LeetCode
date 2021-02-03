@@ -1,6 +1,6 @@
 package `102`
 
-import bean.TreeNode
+import utils.bean.TreeNode
 import java.util.*
 
 /**

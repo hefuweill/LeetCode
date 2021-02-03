@@ -1,6 +1,6 @@
 package `112`
 
-import bean.TreeNode
+import utils.bean.TreeNode
 
 /**
  * 判断是否存在从根节点到叶子节点总和等于 sum 的路径

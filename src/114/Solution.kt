@@ -1,6 +1,6 @@
 package `114`
 
-import bean.TreeNode
+import utils.bean.TreeNode
 
 /**
  * 二叉树原地展开为链表，按照前序遍历方式
